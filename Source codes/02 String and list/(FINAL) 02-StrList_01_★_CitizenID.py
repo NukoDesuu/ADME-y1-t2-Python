@@ -1,6 +1,3 @@
-from re import I, L
-
-
 ID = list(input())
 
 a = int((ID[0])) * 13
