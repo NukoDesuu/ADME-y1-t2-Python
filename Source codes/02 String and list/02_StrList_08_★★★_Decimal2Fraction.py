@@ -20,7 +20,7 @@ print("***Start of the program***\n")
 
 ## Analyzing the length and rearranging the data...
 
-n = len(d) # Starting length value
+n = len(d) # Starting length value (static decimal)
 d = str(int(d) % (10**(n-1))) # Fixing (originally) modified string d
 # HOW...?
 # Since the string d is added leftmost "1" or "0", it must be removed here before further usages.
@@ -31,27 +31,38 @@ d = str(int(d) % (10**(n-1))) # Fixing (originally) modified string d
 ## if the string is originally 0, this will return the same result
 
 n = n - 1 # Fixed length value -> the actual length after the data is being fixed (as "1" is removed, or sometimes not)
-m = len(r) 
+# This also offset the member value when actually... the data arrived empty
+m = len(r) #Inputted repeating decimal length
 
 print("Static decimal length : " + str(n) + " (" + d + ")")
 print("Repeating decimal length : " + str(m) + " (" + r + ")")
 
+### Finding true fraction for never ending, REPEATING DECIMAL places (r) ###
 
-
-
-r_numerator = int(r)
-r_denominator = ((10**(m)) - 1) * (10**n)
+r_numerator = int(r) #converts string r to integer
+r_denominator = ((10**(m)) - 1) * (10**n) #based on theorem... (try writing on paper)
+# for m is the length of repeating decimal and n is the length of the static decimal
+# it is found that the way to eliminate the repeating section is to multiply itself (x) by ...
+# ... 10 to the power of m, then when subtracting repeated section out...
+# ... to be left with static number, the coefficient of x is decreased by 1
+# coeffient is moved to the denominator
+# in order to match integer state of r, the denominator is multiplied by the 10 to the power...
+# ... of n
 
 r_grcmd = ma.gcd(r_numerator, r_denominator)
 
 r_simple_num = r_numerator // r_grcmd
 r_simple_deno = r_denominator // r_grcmd
 
+
+
 print("\nFraction numerator for repeating decimal : " + str(r_numerator))
 print("Fraction denominator for repeating decimal : " + str(r_denominator))
 print("\nThe greatest common devisor for both of them : " + str(r_grcmd))
 print("\nSimplified repeating decimal numerator : " + str(r_simple_num))
 print("Simplified repeating decimal denominator : " + str(r_simple_deno))
+
+### Finding true fraction for FIXED DECIMAL places (d) ###
 
 d_numerator = int(d)
 d_denominator = 10**n
@@ -67,6 +78,8 @@ print("\nThe greatest common devisor for both of them : " + str(d_grcmd))
 print("\nSimplified static decimal numerator : " + str(d_simple_num))
 print("Simplified static decimal denominator : " + str(d_simple_deno))
 
+### Finding the COMBINED FRACTION (r + d) ###
+
 dec_numerator = (d_simple_num * r_simple_deno) + (d_simple_deno * r_simple_num)
 dec_denominator = d_simple_deno * r_simple_deno
 
@@ -81,4 +94,8 @@ print("\nthe greatest common devisor for both of them : " + str(dec_grcmd))
 print("\nSimplified combined numerator : " + str(dec_simple_num))
 print("Simplified combined denominator : " + str(dec_simple_deno))
 
-### OUTPUT : Preparing appropriate outputs ###
+### Finding the TRUE FRACTION OF THE DECIMAL ###
+
+
+
+##### OUTPUT : Preparing appropriate outputs #####
