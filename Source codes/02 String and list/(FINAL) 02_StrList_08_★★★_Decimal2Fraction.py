@@ -1,5 +1,8 @@
 import math as ma
 
+
+
+
 ##### INPUT : Receiving inputs from user, then process them to analyze the components #####
 num = input()
 comp = num.split(",")
@@ -88,7 +91,6 @@ dec_simple_deno = dec_denominator // dec_grcmd
 ## dec_simple_deno will now be denominator for decimal part
 
 
-
 ### FINALIZE : Finding the TRUE FRACTION OF THE ENTIRE DECIMAL ###
 
 # We have to combine the fraction from decimal part to the whole number given
@@ -97,6 +99,9 @@ dec_simple_deno = dec_denominator // dec_grcmd
 
 final_num = dec_simple_num + (int(w) * dec_simple_deno)
 final_deno = dec_simple_deno
+
+
+
 
 ##### OUTPUT : Preparing appropriate outputs #####
 
