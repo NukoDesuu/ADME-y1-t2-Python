@@ -1,6 +1,3 @@
-from calendar import c
-
-
 
 def yay():
     print("yayyy")
