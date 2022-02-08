@@ -1,1 +1,5 @@
-print(abs(-22))
+i = ""
+i += "a"
+i += "b"
+
+print(i)
