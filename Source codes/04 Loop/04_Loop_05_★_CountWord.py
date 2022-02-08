@@ -1,7 +1,15 @@
 w = input()
 s = input()
 
-cs = s.split()
+cs = ""
+
+for c in s:
+    if c.lower() in "abcdefghijklmnopqrstuvwxyz ":
+        cs += c
+    if c == ".":
+        cs += " "
+
+cs = cs.split()
 
 print(cs)
 
