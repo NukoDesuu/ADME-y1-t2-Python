@@ -11,8 +11,6 @@ for c in s:
 
 cs = cs.split()
 
-print(cs)
-
 n = 0
 
 for sw in cs:
