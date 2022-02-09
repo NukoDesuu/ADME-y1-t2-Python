@@ -2,8 +2,6 @@ h = int(input()) #height
 
 b = (2*h) - 1 #base width
 
-#mid = int((b + 1) / 2) #
-
 canvas = ""
 
 space = " " #space entry (no stroke)
