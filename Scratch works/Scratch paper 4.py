@@ -1,6 +1,0 @@
-a,b,c,d,e = [""] * int(input())
-print(a)
-print(b)
-print(c)
-print(d)
-print(e)
