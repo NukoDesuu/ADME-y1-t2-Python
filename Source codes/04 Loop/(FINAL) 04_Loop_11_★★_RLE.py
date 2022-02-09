@@ -17,3 +17,5 @@ for c in inp:
 out += (str(ini) + " " + str(n))
 
 print(out)
+
+#I'll explain later...
