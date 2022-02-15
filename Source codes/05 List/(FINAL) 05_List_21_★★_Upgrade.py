@@ -16,8 +16,16 @@ for i in up_ids:
     if i in ids:
         who = ids.index(i)
         g = gradings.index(grades[who])
-        g += 1
-        grades[who] = gradings[g]
+        if g != 7:
+            g += 1
+            grades[who] = gradings[g]
+
+result = []
 
 for n in range(len(ids)):
-    print(ids[n] + " " + grades[n])
+    result.append(ids[n] + " " + grades[n])
+
+out = sorted(result)
+
+for l in out:
+    print(l)
