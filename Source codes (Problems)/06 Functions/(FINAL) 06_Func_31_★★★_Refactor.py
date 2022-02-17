@@ -24,7 +24,7 @@ def zodiac(d,m):
     else:
         if (m == 12) or (m == 1 and d <= 20):
             return "Capricorn"
-        elif (m == 1 and d >= 1) or (m == 2 and d <= 20):
+        elif (m == 1 and d >= 21) or (m == 2 and d <= 20):
             return "Aquarius"
         else:
             return "Pisces"
@@ -61,4 +61,4 @@ def main():
     print(zodiac(d1, m1), zodiac(d2, m2))
     print(days_in_between(d1, m1, y1, d2, m2, y2))
 
-main()
+exec(input().strip())
