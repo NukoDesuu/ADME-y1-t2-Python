@@ -35,4 +35,4 @@ def perimeter(points):
     peri += distance1(xi, yi, xb, yb)
     return peri
 
-print(perimeter([[0,0], [0,2], [2,2], [2,0]]))        
+exec(input().strip())
