@@ -20,4 +20,4 @@ def sum_square(alist):
         sq_sum += (n**2)
     return sq_sum
 
-print(sum_square([1,1,2,3]))
+exec(input().strip())
