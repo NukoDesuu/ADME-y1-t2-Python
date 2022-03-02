@@ -1,3 +1,3 @@
-keyboardRowA = '!@#$%^&*()_+'
+keyboardRowA = '6438224221'
 
-print('!' in keyboardRowA)
+print(keyboardRowA[8:10])
