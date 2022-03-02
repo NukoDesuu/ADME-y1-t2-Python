@@ -24,7 +24,7 @@ def F(ds):
         elif b == "C":
             C_count += 1
         elif b == "G":
-            G_count
+            G_count += 1
     out = "A=" + str(A_count) + ", T=" + str(T_count) + ", G=" + str(G_count) + ", C=" + str(C_count)
     return out
 
