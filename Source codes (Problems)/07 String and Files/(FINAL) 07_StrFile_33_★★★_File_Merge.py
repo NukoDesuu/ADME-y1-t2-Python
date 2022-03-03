@@ -6,7 +6,7 @@ def StudentSort(stdl):
         temp = []
         faculty = li[8:10]
         acadYear = li[:2]
-        sid = li[2:7]
+        sid = li[2:8]
         grade = li[11:]
 
         temp.append(faculty)
@@ -15,11 +15,11 @@ def StudentSort(stdl):
         temp.append(grade)
 
         sortingList.append(temp)
-    
+
     sortedData = sorted(sortingList)
 
     polishedSorted = []
-    
+
     for s in sortedData:
         faculty = s[0]
         acadYear = s[1]
@@ -82,4 +82,4 @@ lineSum = FileCombine(lines1, lines2)
 studentSort = StudentSort(lineSum)
 
 for i in studentSort:
-    print(i)
+    print(i) 
