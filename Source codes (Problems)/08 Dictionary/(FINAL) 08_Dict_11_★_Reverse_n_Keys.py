@@ -1,6 +1,6 @@
 def reverse(d):
     reversed_d = {}
-    for k,v in d.items():
+    for k,v in d.items(): #use method ".items()" to gather tuples of key, value pair.
         reversed_d[v] = k
     return reversed_d
 
@@ -11,4 +11,4 @@ def keys(d, v):
             matches.append(dk)
     return matches
 
-print(keys({3:33, 4:33, 5:55, 2:33}, 9999))
+exec(input().strip())
