@@ -35,8 +35,8 @@ def FileCombine(f1, f2):
     combined = f1 + f2
     return combined
 
-inp = ["E:/Nono/Programming/Sample data files/Data A.txt", "E:/Nono/Programming/Sample data files/Data B.txt"]
-# inp = input().split()
+# inp = ["E:/Nono/Programming/Sample data files/Data A.txt", "E:/Nono/Programming/Sample data files/Data B.txt"] (test case for my local pc)
+inp = input().split()
 file1 = str(inp[0])
 file2 = str(inp[1])
 
