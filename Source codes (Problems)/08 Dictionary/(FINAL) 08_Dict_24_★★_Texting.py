@@ -20,4 +20,4 @@ def keys2text(keys):
         out += alpha[l][p-1]
     return out
 
-print(keys2text("444 0 2 6 0 22 88 7777 999"))
+exec(input().strip())
