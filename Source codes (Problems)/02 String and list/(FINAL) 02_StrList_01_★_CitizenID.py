@@ -1,4 +1,4 @@
-ID = list(input())
+ID = input()
 
 a = int((ID[0])) * 13
 b = int((ID[1])) * 12
