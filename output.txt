@@ -1,0 +1,7 @@
+08_Dict_11_★_Reverse_n_Keys
+08_Dict_12_★_Nicknames
+08_Dict_21_★★_Char_Count
+08_Dict_22_★★_Ice_Cream_Sales
+08_Dict_23_★★_Telephone_Directory
+08_Dict_24_★★_Texting
+08_Dict_31_★★★_Cash
