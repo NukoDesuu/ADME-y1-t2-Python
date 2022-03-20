@@ -24,7 +24,6 @@ sameFreqAlpha = []
 totalSorted = []
 ie = 0
 rep = 0
-repc = 0
 n = 0
 max_n = len(freqSorted)
 
@@ -59,8 +58,6 @@ for e in freqSorted:
                 totalSorted.append(r)
         else:
             totalSorted.append([f, a])
-
-print(totalSorted)
 
 for pair in totalSorted:
     f = pair[0]
