@@ -48,4 +48,4 @@ def mult(A, B):
     
     return A_mult_B
 
-print(mult(read_matrix(), read_matrix()))
+exec(input().strip())
