@@ -41,4 +41,4 @@ def solvable(t):
         return True
     return False
 
-print(inversions([1, 3, 6, 7, 5, 8, 2, 4]))
+exec(input().strip())
