@@ -64,4 +64,4 @@ def primitive_Pythagorean_triples(max_len):
     
     return final_triple
 
-print(primitive_Pythagorean_triples(3))
+exec(input().strip())
