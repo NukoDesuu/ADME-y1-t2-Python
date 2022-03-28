@@ -49,13 +49,11 @@ def best_fit(L, e):
                         max_index = j
                         max_value = tot
 
-            final = []
             index = 0
             while index < items:
                 cur_item = L[index]
                 if index == max_index:
                     cur_item.append(e)
-                final.append(cur_item)
                 index += 1
         else:
             L.append([e])
@@ -105,4 +103,4 @@ def partition_BF(D):
         items += 1
     return temp
 
-print(partition_BF([51,60,49,42,49,43,11,31,50,17,13,57,41,27,26,23,23,45,38,50,16,10,18,56,44,49,6,23,15,57]))
+exec(input().strip())
