@@ -1,7 +1,10 @@
-09 Nested Structures
-09_MoreDC_11_NestedLoop_★_Dedent
-09_MoreDC_21_NestedLoop_★★_Factorization
-09_MoreDC_22_NestedList_★★_Matrix
-09_MoreDC_25_NestedList_★★_Tiling_Puzzle
-09_MoreDC_31_NestedLoop_★★★_Pythagorean_Triple
-09_MoreDC_32_NestedList_★★★_FirstFit_BestFit
+09 Nested Structures B
+09_MoreDC_12	10_TSD_★_Union Intersection
+09_MoreDC_13	10_TSD_★_Winner
+09_MoreDC_14	10_TSD_★_Database
+09_MoreDC_23	10_TSD_★★_GenreTotalPlaytime
+09_MoreDC_24	10_TSD_★★_Cartoon
+09_MoreDC_26	10_TSD_★★_Location Analysis
+09_MoreDC_27	10_TSD_★★_Celebrity
+09_MoreDC_33	10_TSD_★★★_Polynomial
+09_MoreDC_35	10_TSD_★★★_Student Info
