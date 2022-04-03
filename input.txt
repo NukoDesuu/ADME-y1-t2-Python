@@ -1,10 +1,10 @@
 09 Nested Structures B
-09_MoreDC_12	10_TSD_★_Union Intersection
-09_MoreDC_13	10_TSD_★_Winner
-09_MoreDC_14	10_TSD_★_Database
-09_MoreDC_23	10_TSD_★★_GenreTotalPlaytime
-09_MoreDC_24	10_TSD_★★_Cartoon
-09_MoreDC_26	10_TSD_★★_Location Analysis
-09_MoreDC_27	10_TSD_★★_Celebrity
-09_MoreDC_33	10_TSD_★★★_Polynomial
-09_MoreDC_35	10_TSD_★★★_Student Info
+09_MoreDC_12_TSD_★_Union Intersection.py
+09_MoreDC_13_TSD_★_Winner.py
+09_MoreDC_14_TSD_★_Database.py
+09_MoreDC_23_TSD_★★_GenreTotalPlaytime.py
+09_MoreDC_24_TSD_★★_Cartoon.py
+09_MoreDC_26_TSD_★★_Location Analysis.py
+09_MoreDC_27_TSD_★★_Celebrity.py
+09_MoreDC_33_TSD_★★★_Polynomial.py
+09_MoreDC_35_TSD_★★★_Student Info.py
