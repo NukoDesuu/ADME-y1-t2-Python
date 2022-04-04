@@ -1,8 +1,8 @@
 10 Numpy
-10_NumPy_11	11_NumPy_★_Indexing_and_Slicing.py
-10_NumPy_12	11_NumPy_★_Scalar_and_Array.py
-10_NumPy_13	11_NumPy_★_Logistic_Regression.py
-10_NumPy_21	11_NumPy_★★_Slicing and Element-wise Op..py
-10_NumPy_22	11_NumPy_★★_Outer_Product.py
-10_NumPy_23	11_NumPy_★★_Lower_than_Mean.py
-10_NumPy_24	11_NumPy_★★_Peak_Indexes.py
+10_NumPy_11_NumPy_★_Indexing_and_Slicing
+10_NumPy_12_NumPy_★_Scalar_and_Array
+10_NumPy_13_NumPy_★_Logistic_Regression
+10_NumPy_21_NumPy_★★_Slicing and Element-wise Op.
+10_NumPy_22_NumPy_★★_Outer_Product
+10_NumPy_23_NumPy_★★_Lower_than_Mean
+10_NumPy_24_NumPy_★★_Peak_Indexes
