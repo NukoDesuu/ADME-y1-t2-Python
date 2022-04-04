@@ -42,5 +42,5 @@ else:
 for e in Top3:
     top_min = e[0]
     top_genre = e[1]
-    out = top_genre + " ---> " + MinToTimeStr(top_min)
+    out = top_genre + " --> " + MinToTimeStr(top_min)
     print(out)
