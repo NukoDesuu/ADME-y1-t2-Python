@@ -10,7 +10,7 @@ def is_celeb(R, x):
         elif len(R[x]) == 1 and x in R[x] and len(R) == 1:
             return True
     for beingKnown in R.values():
-        if x not in beingKnown:
+        if x not in beingKnown and len(beingKnown) != 0:
             return False
     return True
 
@@ -48,4 +48,4 @@ def main():
     else:
         print(c)
 
-exec("print(find_celeb({'D':{'Z'},'Q':{'Z'},'C':{'B','Z'},'B':{'Q','Z'},'Z':set()}))")
+exec(input().strip())
