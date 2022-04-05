@@ -25,7 +25,7 @@ for string, sep in leading_spaces.items():
     if sep != 0:
         old = string
         mod = old[sep:]
-        final = ("." * int(sep / 2)) + mod
+        final = ("." * int(sep // 2)) + mod
     else:
         final = string
     modified.append(final)
