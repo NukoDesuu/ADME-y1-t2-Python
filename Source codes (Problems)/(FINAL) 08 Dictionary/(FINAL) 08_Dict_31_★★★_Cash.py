@@ -30,4 +30,4 @@ def pay(pocket, amt):
             pocket[pv] -= pn
         return payments
 
-exec(input().strip())
+exec("def _a(p):\n print([(k,v) for k,v in sorted(p.items())])\np={100:3, 10:5, 5:10, 1:7};_a(pay(p, 68));_a(p)")
