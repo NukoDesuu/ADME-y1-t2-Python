@@ -1,3 +1,6 @@
+import string
+
+
 n = int(input())
 
 i = 0
@@ -7,7 +10,7 @@ while i < n:
     lines.append(input())
     i += 1
 
-leading_spaces = {}
+leading_spaces = []
 
 for line in lines:
     dis,k,out = 0,0,0
@@ -17,11 +20,13 @@ for line in lines:
         else:
             out = 1
         k += 1
-    leading_spaces[line] = dis
+    leading_spaces.append([line,dis])
 
 modified = []
 
-for string, sep in leading_spaces.items():
+for l in leading_spaces:
+    string = l[0]
+    sep = l[1]
     if sep != 0:
         old = string
         mod = old[sep:]
