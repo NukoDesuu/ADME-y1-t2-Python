@@ -1,6 +1,7 @@
 cartoon_name_type = dict()
 
 inp = input()
+type_order = []
 
 while inp != "q":
     comp = inp.split(", ")
@@ -8,9 +9,10 @@ while inp != "q":
     type = comp[1]
     if type not in cartoon_name_type:
         cartoon_name_type[type] = [name]
+        type_order.append(type)
     else:
         cartoon_name_type[type] += [name]
     inp = input()
 
-for t,nl in cartoon_name_type.items():
-    print(t + ": " + ", ".join(nl))
+for t_order in type_order:
+    print(t_order + ": " + ", ".join(cartoon_name_type[t_order]))
