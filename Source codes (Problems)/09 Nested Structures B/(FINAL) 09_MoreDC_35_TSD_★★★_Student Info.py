@@ -18,5 +18,8 @@ for student in database:
     if void == 0:
         result.append(student)
 
-for out in sorted(result):
-    print(" ".join(out))
+if len(result) == 0:
+    print("Not Found")
+else:
+    for out in sorted(result):
+        print(" ".join(out))
