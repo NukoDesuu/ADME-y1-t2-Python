@@ -73,6 +73,9 @@ def mult_poly(p1,p2):
     
     return out
 
-for i in range(3):
-    exec(input().strip())
-print("[(3, 6), (2, 4), (1, 1), (-1, 0)] [(3, 6), (2, 4), (1, 1), (-1, 0)]")
+p1 = [(3,6),(2,4),(1,1),(-1,0)]
+p2 = []
+print(add_poly(p1, p2),add_poly(p2,p1))
+
+# for i in range(3):
+#     exec(input().strip())
