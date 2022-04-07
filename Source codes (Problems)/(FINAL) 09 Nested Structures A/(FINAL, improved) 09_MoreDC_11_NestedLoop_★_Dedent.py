@@ -1,6 +1,3 @@
-import string
-
-
 n = int(input())
 
 i = 0
