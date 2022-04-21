@@ -1,3 +1,4 @@
+# Receive input from a user
 n = int(input())
 
 i = 0
@@ -9,7 +10,9 @@ while i < n:
     ID_locations_db[ID] = location.split(", ")
     i += 1
 
+# Receive last input for result searching
 keyID = input()
+
 keyID_locations = ID_locations_db[keyID]
 ID_location_db = ID_locations_db.pop(keyID)
 matches = list()
