@@ -1,15 +1,15 @@
-# def total(pocket):
-#     total = 0
-#     for bv, bn in pocket.items():
-#         total += bv * bn
-#     return total
+def total(pocket):
+    total = 0
+    for bv, bn in pocket.items():
+        total += bv * bn
+    return total
 
-# def take(pocket, money_in):
-#     for ibv, ibn in money_in.items():
-#         if ibv not in pocket:
-#             pocket[ibv] = ibn
-#         else:
-#             pocket[ibv] += ibn
+def take(pocket, money_in):
+    for ibv, ibn in money_in.items():
+        if ibv not in pocket:
+            pocket[ibv] = ibn
+        else:
+            pocket[ibv] += ibn
 
 def pay(pocket, amt):
     payments = {}
@@ -34,4 +34,4 @@ def pay(pocket, amt):
             pocket[pv] -= pn
         return payments
 
-exec("def _a(p):\n print([(k,v) for k,v in sorted(p.items())])\np={10:5, 1:7};_a(pay(p, 42));_a(p)")
+exec(input().strip())
