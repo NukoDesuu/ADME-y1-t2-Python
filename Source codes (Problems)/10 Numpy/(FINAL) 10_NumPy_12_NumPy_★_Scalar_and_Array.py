@@ -13,4 +13,4 @@ def distanceTo(p, Points):
     dis_list = [ ( (Points[i][0] - p[0])**2 + (Points[i][1] - p[1])**2 )**0.5 for i in range(p_counts)]
     return np.array(dis_list)
 
-exec("x=toCelsius(np.array([-100, 0, 32, 50.5, 212]))\nprint(type(x))\nfor e in x:\n print(round(e,6))")
+exec(input().strip())

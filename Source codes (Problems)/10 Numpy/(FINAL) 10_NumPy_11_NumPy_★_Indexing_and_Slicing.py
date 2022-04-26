@@ -21,5 +21,4 @@ def get_diagonal2(A):
     final = [A[i][A.shape[0] - (i + 1)] for i in range(A.shape[0])]
     return np.array(final)
 
-A = np.array( [[1,2,3],[4,5,6],[7,8,9]] )
-print(get_diagonal2(A))
+exec(input().strip())
