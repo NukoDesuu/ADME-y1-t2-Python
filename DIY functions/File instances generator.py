@@ -11,7 +11,7 @@ with codecs.open("input.txt", encoding='utf-8', mode='r') as f:
             items = l.split()
             renamed.append(items[0] + ".py")
 
-dataPath = 'E:\\Nono\\Programming\\ONLINE SYNCED SOURCES\\ADME-y1-t2-Python\\Source codes (Problems)\\' + folder[:-2]
+dataPath = 'D:\\Nono\\WORKS\\Programming\\ONLINE SYNCED SOURCES\\ADME-y1-t2-Python\\Source codes (Problems)\\' + folder[:-2]
 
 print("Selected folder : " + folder[:-2])
 print("Path : " + dataPath)
