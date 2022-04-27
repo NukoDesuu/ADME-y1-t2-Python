@@ -5,4 +5,4 @@ def mult_table(nrows, ncols):
     c = np.arange(1, ncols + 1)
     return c * r
 
-print(mult_table(12,12))
+exec(input().strip())
