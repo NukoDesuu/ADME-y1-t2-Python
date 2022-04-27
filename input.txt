@@ -1,8 +1,5 @@
-10 Numpy
-10_NumPy_11_NumPy_★_Indexing_and_Slicing
-10_NumPy_12_NumPy_★_Scalar_and_Array
-10_NumPy_13_NumPy_★_Logistic_Regression
-10_NumPy_21_NumPy_★★_Slicing and Element-wise Op.
-10_NumPy_22_NumPy_★★_Outer_Product
-10_NumPy_23_NumPy_★★_Lower_than_Mean
-10_NumPy_24_NumPy_★★_Peak_Indexes
+12 Class
+12_Class_21_★★_Complex_Number
+12_Class_22_★★_Card
+12_Class_23_★★_Next_Card
+12_Class_31_★★★_Point_in_Rect
