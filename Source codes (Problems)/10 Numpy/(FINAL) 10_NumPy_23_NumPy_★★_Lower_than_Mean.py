@@ -23,6 +23,9 @@ def report_lower_than_mean(weight, data):
         cur_s = np.sum(weighted_grades[i])
         if cur_s < m:
             low_scores.append(str(student_ID[i]))
-    print(", ".join(low_scores))
+    if len(low_scores) == 0:
+        print("None")
+    else:
+        print(", ".join(low_scores))
 
-w,d = read_data(); report_lower_than_mean(w,d)
+exec(input().strip())
