@@ -80,6 +80,4 @@ def count_leap_years( years ):
 # print(sum_4_cells(testcase))
 # print(count_leap_years(testcase2))
 
-print(sum_4_quadrants(np.arange(-10,54).reshape(8,8)))
-
-# exec(input().strip())
+exec(input().strip())
