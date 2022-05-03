@@ -1,5 +1,9 @@
 import numpy as np
 
+# My comment : You should clarify whether student
+# has to consider about "CORNER" values or not (and how).
+# Corner values are the FIRST and the LAST value in a graph.
+
 def peak_indexes(x):
     num = x.shape[0]
     pos = np.arange(num)
@@ -30,4 +34,4 @@ def main():
     else:
         print("No peaks")
 
-main()
+exec(input().strip())
