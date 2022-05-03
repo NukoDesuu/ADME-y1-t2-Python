@@ -6,14 +6,32 @@ class Complex():
     def __str__(self):
         a = self.real
         b = self.imaginary
+        i = "i"
+        bsign = ""
+        
+        if b > 0 and a != 0:
+            bsign = "+"
+
+        if a == 0:
+            a = ""
+        
         if b == 0:
-            sign = ""
             b = ""
-        elif b < 0:
-            sign = "-"
+            bsign = ""
+            i = ""
         else:
-            sign = "+"
-        return str(a) + sign + str(b) + "i"
+            if b == -1:
+                bsign = "-"
+                b = ""
+            elif b == 1:
+                if a == "":
+                    bsign = ""
+                b = ""
+        
+        if self.real == 0 and self.imaginary == 0:
+            return str(0)
+
+        return str(a) + bsign + str(b) + i
 
     def __add__(self, rhs):
         a1 = self.real
@@ -42,7 +60,13 @@ class Complex():
         return Complex(r,i)
 
     def __truediv__(self, rhs):
-        pass
+        a = self.real
+        b = self.imaginary
+        c = rhs.real
+        d = rhs.imaginary
+        dr = (a*c + b*d) / (c**2 + d**2)
+        di = (-1*a*d + b*c) / (c**2 + d**2)
+        return Complex(dr, di)
 
 t, a, b, c, d = [int(x) for x in input().split()]
 c1 = Complex(a,b)
