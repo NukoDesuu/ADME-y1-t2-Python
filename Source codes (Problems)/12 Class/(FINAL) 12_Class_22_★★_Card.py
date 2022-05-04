@@ -25,6 +25,7 @@ class Card:
         suits = {"club": 1, "diamond": 2, "heart": 3,
                  "spade": 4}
         return (faces[self.v] + suits[self.s]) < (faces[rhs.v] + suits[rhs.s])
+        ## Tbh, I'm not really sure how does this line works but it does works.
 
 n = int(input())
 
