@@ -25,6 +25,7 @@ class Card:
 
     def next1(self):
         num = range(20)
+        # check whether if the inputs are text or number
         if not(self.v in num and self.s in num):
             o = self.getOrder()
             s = self.getSuit()
@@ -41,6 +42,7 @@ class Card:
 
     def next2(self):
         num = range(20)
+        # check whether if the inputs are text or number
         if not(self.v in num and self.s in num):
             o = self.getOrder()
             s = self.getSuit()
